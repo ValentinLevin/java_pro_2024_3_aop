@@ -1,11 +1,13 @@
-package com.example.aop;
+package com.example.task4;
 
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.SpringApplication;
+import org.springframework.scheduling.annotation.EnableAsync;
 
 @SpringBootApplication
-public class AopApplication {
+@EnableAsync
+public class Task4Application {
     public static void main(String[] args) {
-        SpringApplication.run(AopApplication.class, args);
+        SpringApplication.run(Task4Application.class, args);
     }
 }
